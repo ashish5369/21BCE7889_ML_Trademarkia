@@ -1,0 +1,7 @@
+fastapi  
+uvicorn  
+sqlalchemy  
+asyncpg  
+redis  
+beautifulsoup4  
+requests
