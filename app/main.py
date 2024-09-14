@@ -3,6 +3,7 @@ from app.database import engine
 from app.models import Base  
 from app.routes import search, health  
 from background_tasks import scrape_articles  
+import asyncio  
 
 app = FastAPI()  
 

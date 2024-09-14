@@ -1,7 +1,6 @@
 fastapi  
 uvicorn  
-sqlalchemy  
+sqlalchemy[asyncio]  
 asyncpg  
-redis  
-beautifulsoup4  
-requests
+aioredis  
+redis

@@ -6,14 +6,16 @@ services:
     depends_on:  
       - db  
       - redis  
+
   db:  
     image: postgres:latest  
     environment:  
       POSTGRES_USER: user  
       POSTGRES_PASSWORD: password  
-      POSTGRES_DB: documents_db  
+      POSTGRES_DB: dbname  
     ports:  
       - "5432:5432"  
+
   redis:  
     image: redis:latest  
     ports:  
